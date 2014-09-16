@@ -1,0 +1,273 @@
+/* 
+/
+/  Custom overrides
+/
+-------------------------------------------------- */
+
+/* Layout and typography
+-------------------------------------------------- */
+
+body {
+  font-family: 'PT Sans';
+}
+
+a {
+  color: #e67747;
+}
+
+a:hover {
+  color: #7d3c75;
+}
+
+h1, h2, h3 {
+  font-family: Enriqueta;        
+}
+
+h2.panel-title {
+  font-size: 30px;
+}
+
+h3 {
+  margin-top: 2em;
+  padding-top: .5em;
+  border-top: 4px solid #b2b84a;
+}
+
+h3.no-bar {
+  margin-top: inherit;
+  padding: inherit;
+  padding-left: 0;
+  border: none;
+}
+
+.jumbotron {
+  padding-left: 0;
+}
+
+code {
+  color: #B85F38;
+  background-color: #FCF1EC;
+}
+
+.code-big {
+  font-size: 125%;
+  line-height: 125%;
+}
+
+code .highlight {
+  color: #41364e;
+  background-color: #D9D2E1;
+  -webkit-border-radius: 4px; 
+     -moz-border-radius: 4px; 
+          border-radius:4px;
+}
+
+mark {
+  background-color: #fcd67e;
+  padding: 3px 5px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+}
+
+strong {
+  color: #e67747;
+  font-weight: bold;
+}
+
+.lead-grey{
+  color: #999;
+}
+
+.btn.pull-right {
+  margin-left: 6px;
+  padding-bottom: 6px;
+}
+
+.white-text {
+  color: white;
+}
+
+.reveal {
+  color: white;
+}
+
+.white-text.reveal {
+  color: black;
+}
+
+.prev-next {
+  margin: 20px 0;
+  padding-bottom: auto;
+  color: #999;
+  font-weight: normal;
+  border: 1px solid #999;
+}
+
+.vertical-spacer {
+  margin-bottom: 20px;
+}
+/* Misc elements
+-------------------------------------------------- */
+
+.well {
+  background-color: white;
+}
+
+.well span.glyphicon {
+  font-size: 150%;
+  padding-right: .5em;
+}
+
+#buttons-row {
+  padding-bottom: 34px;
+}
+
+.gold-star {
+  color: #fcd67e;
+  border: 2px solid #fcd67e;
+  border-radius: 7px;
+  margin-bottom: -2px;
+  padding: 0.25em;
+}
+
+.gold-star:hover {
+  color: #e67747;
+  border-color: #e67747;
+}
+
+.gold-star:hover:after {
+  content: " yay! you rock :)";
+}
+
+.gold-star-snarky:hover:after {
+  content: " yay! I rock ;)";
+}
+
+.panel-heading:hover a {
+  color:inherit;
+}
+
+.modal-dialog {
+  width: 720px;
+}
+
+.giant-and-green {
+  color: #b2b84a;
+  font-size: 3000%;
+}
+
+.oversized-and-orange {
+  color: #e67747;
+  font-size: 500%;
+  margin: .5em auto;
+}
+
+.oversized-and-orange span.glyphicon {
+  font-size: 200%;
+}
+
+.oversized-and-orange div.text {
+  margin: .25em inherit;
+  padding-left: .25em;
+}
+
+.well button.btn {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* Color blocks
+-------------------------------------------------- */
+
+.bg-yellow {
+  background: #fcd67e;
+  color: white;
+  border-color: #fcd67e;
+}
+
+.bg-orange {
+  background: #e67747;
+  color: white;
+  border-color: #e67747;
+}
+
+.bg-purple {
+  background: #7d3c75;
+  color: white;
+  border-color: #7d3c75;
+}
+
+.bg-lavender {
+  background: #826c9c;
+  color: white;
+  border-color: #826c9c;
+}
+
+.bg-green {
+  background: #b2b84a;
+  color: white;
+  border-color: #b2b84a;
+}
+
+.bg-neutral, a.btn:hover, .panel-heading:hover, .btn.bg-yellow:hover,
+.btn.bg-orange:hover, .btn.bg-purple:hover, .btn.bg-lavender:hover,
+.btn.bg-green:hover {
+  background: #bdbdb9 !important;
+  border-color: #bdbdb9 !important;
+  color: white !important;
+}
+
+.bg-purple.no-hover:hover {
+  background: #7d3c75 !important;
+  color: white !important;
+  border-color: #7d3c75 !important;
+}
+
+.bg-yellow.no-hover:hover {
+  background: #fcd67e !important;
+  color: white !important;
+  border-color: #fcd67e !important;
+}
+
+.bg-yellow {
+  background: #fcd67e;
+  color: white;
+  border-color: #fcd67e;
+}
+
+.yellow-text {
+  color: #fcd67e;
+}
+
+.purple-text {
+  color: #7d3c75;
+}
+
+.conditional-loops-2 {
+  width: 320px;
+  height: 213px;
+}
+
+.kitten-button {
+  background-image: url('http://bit.ly/1rECbMl');
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  padding-top: 20px;
+}      
+
