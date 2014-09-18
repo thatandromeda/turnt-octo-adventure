@@ -226,12 +226,16 @@ section.top-padding-large {
   font-size: 200%;
 }
 
-.bg-purple .btn-transition .glyphicon {
-  color: #7d3c75;
-}
-
+/* This must go first or it will interfere with the other color rules;
+   since the body as a whole has bg-yellow this rule applies to all
+   glyphicon buttons unless overridden.
+*/
 .bg-yellow .btn-transition .glyphicon {
   color: #fcd67e;
+}
+
+.bg-purple .btn-transition .glyphicon {
+  color: #7d3c75;
 }
 
 .bg-green .btn-transition .glyphicon {
