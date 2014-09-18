@@ -9,6 +9,24 @@
 
 body {
   font-family: 'PT Sans';
+  font-size: 18px;
+}
+
+/* Proportions from http://webtypography.net/3.1.1 , scaled to a base
+   body font size of 18px.
+*/
+h1 {
+  font-size: 54px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 27px;
+}
+
+h4 {
+  font-size: 21px;
 }
 
 a {
@@ -106,6 +124,25 @@ strong {
 .vertical-spacer {
   margin-bottom: 20px;
 }
+
+.vertical-spacer-large {
+  margin-bottom: 40px;
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+section.top-padding-large {
+  padding-top: 200px;
+}
+
+.img-spacer img {
+  width: 90%;
+  padding: 15% 5%;
+}
+
 /* Misc elements
 -------------------------------------------------- */
 
@@ -176,12 +213,44 @@ strong {
   margin-bottom: 3px;
 }
 
+.btn-transition {
+  opacity: 0.1;
+  background-color: white;
+}
+
+.btn-transition:hover {
+  opacity: .6;
+}
+
+.btn-transition .glyphicon {
+  font-size: 200%;
+}
+
+.bg-purple .btn-transition .glyphicon {
+  color: #7d3c75;
+}
+
+.bg-yellow .btn-transition .glyphicon {
+  color: #fcd67e;
+}
+
+.bg-green .btn-transition .glyphicon {
+  color: #b2b84a;
+}
+
+.bg-lavender .btn-transition .glyphicon {
+  color: #826c9c;
+}
+
 /* Color blocks
 -------------------------------------------------- */
 
+.bg-white {
+  background: white;
+}
 .bg-yellow {
   background: #fcd67e;
-  color: white;
+  color: #666;
   border-color: #fcd67e;
 }
 
@@ -227,12 +296,6 @@ strong {
   background: #fcd67e !important;
   color: white !important;
   border-color: #fcd67e !important;
-}
-
-.bg-yellow {
-  background: #fcd67e;
-  color: white;
-  border-color: #fcd67e;
 }
 
 .yellow-text {
